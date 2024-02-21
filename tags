@@ -1,0 +1,3 @@
+cornernessHarris	Lesson 4 - Tracking Image Features/Harris Corner Detection/cornerness_harris/src/cornerness_harris.cpp	/^void cornernessHarris() {$/;"	f	typeref:typename:void
+main	Lesson 4 - Tracking Image Features/Harris Corner Detection/cornerness_harris/src/cornerness_harris.cpp	/^int main() { cornernessHarris(); }$/;"	f	typeref:typename:int
+nms	Lesson 4 - Tracking Image Features/Harris Corner Detection/cornerness_harris/src/cornerness_harris.cpp	/^void nms(cv::Mat &src, int minResponse, vector<cv::KeyPoint> &keypoints,$/;"	f	typeref:typename:void
