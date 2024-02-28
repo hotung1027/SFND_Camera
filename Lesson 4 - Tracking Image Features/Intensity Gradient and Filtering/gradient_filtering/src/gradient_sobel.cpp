@@ -23,7 +23,11 @@ void gradientSobel() {
   cv::cvtColor(img, imgGray, cv::COLOR_BGR2GRAY);
 
   //  Step 3 - create filter kernel
-  float sobel_x[9] = {-1, 0, +1, -2, 0, +2, -1, 0, +1};
+  // clang-format off
+  float sobel_x[9] = {-1, 0, +1,
+                      -2, 0, +2,
+                      -1, 0, +1};
+  // clang-format on
   cv::Mat kernel_x = cv::Mat(3, 3, CV_32F, sobel_x);
 
   //  Step 4 - apply filter
